@@ -4,6 +4,14 @@ import { SiGithub } from "@icons-pack/react-simple-icons";
 const projects = [
     {
         id: 1,
+        title: "ConnectX",
+        description: "Customizable Connect Four in .NET 9 with Console + Razor Pages Web UI, real-time multiplayer via SignalR, and save/load using SQLite (EF Core) or JSON. ",
+        image: "/portfolio/projects/Homepage.png",
+        tags: ["C#", ".NET 9", "EF Core", "SQLite"],
+        githubUrl: "https://github.com/karlkunnapas/ConnectXGame",
+    },
+    {
+        id: 2,
         title: "SQLite Database Webpage",
         description: "Flask-based web app with a SQLite database of TalTech campus cafes. Allows users to view data and interact with the database via a simple UI, styled with CSS.",
         image: "/portfolio/projects/Web_app_screenshot.png",
@@ -11,7 +19,7 @@ const projects = [
         githubUrl: "https://github.com/karlkunnapas/SQLite-Database-Webpage",
     },
     {
-        id: 2,
+        id: 3,
         title: "Statistics Estonia Scraper",
         description: "A program that navigates to the Statistics Estonia main indicators page and saves the names and numerical values of all main indicators to a file. Then, it asks the user which indicator they want to know about and outputs it to the console.",
         image: "/portfolio/projects/statisticsBot.png",
@@ -29,7 +37,7 @@ export const ProjectsSection = () => {
                 Personal projects I have made and published in GitHub.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
                 {projects.map((project, key) => (
                     <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                         <div className="h-48 overflow-hidden">

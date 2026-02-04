@@ -1,5 +1,5 @@
 import { Code } from "lucide-react"
-import { PythonPlain } from "devicons-react";
+import {CsharpPlain, PythonPlain, ReactOriginal} from "devicons-react";
 import { JavaPlain } from "devicons-react";
 
 export const AboutSection = () => {
@@ -19,7 +19,7 @@ export const AboutSection = () => {
                     </p>
 
                     <p className="text-muted-foreground">
-                        In high school, I took elective courses in basic web development, and during my military service, I specialized slightly in networking and communications. As of now, I have successfully completed the first year of my bachelor's degree with a very good GPA, thanks to my deep interest in the field.
+                        In high school, I took elective courses in basic web development, and during my military service, I specialized slightly in networking and communications. I am currently in my second year of bachelor’s studies with a very strong GPA, driven by a deep interest in my chosen field.
                     </p>
                 </div>
 
@@ -31,34 +31,34 @@ export const AboutSection = () => {
                     <div className="gradient-border p-3 card-hover">
                         <div className="flex items-center gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <PythonPlain className="h-6 w-6 text-primary" />
-                            </div>
-
-                            <div className="text-left">
-                                <h4> Python</h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="gradient-border p-3 card-hover">
-                        <div className="flex items-center gap-4">
-                            <div className="p-3 rounded-full bg-primary/10">
-                                <JavaPlain className="h-6 w-6 text-primary" />
-                            </div>
-
-                            <div className="text-left">
-                                <h4> Java</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="gradient-border p-3 card-hover">
-                        <div className="flex items-center gap-4">
-                            <div className="p-3 rounded-full bg-primary/10">
                                 <Code className="h-6 w-6 text-primary" />
                             </div>
 
                             <div className="text-left">
-                                <h4> JavaScript/HTML/CSS</h4>
+                                <h4> Python, Java, C#, PHP </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="gradient-border p-3 card-hover">
+                        <div className="flex items-center gap-4">
+                            <div className="p-3 rounded-full bg-primary/10">
+                                <PythonPlain className="h-6 w-6 text-primary" />
+                            </div>
+
+                            <div className="text-left">
+                                <h4> Python + Selenium WebDriver programs (personal projects)</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="gradient-border p-3 card-hover">
+                        <div className="flex items-center gap-4">
+                            <div className="p-3 rounded-full bg-primary/10">
+                                <ReactOriginal className="h-6 w-6 text-primary" />
+                            </div>
+
+                            <div className="text-left">
+                                <h4> Web applications: React, C# Razor Pages + EF Core (SQLite), PHP + MySQL</h4>
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ export const AboutSection = () => {
                     </p>
 
                     <p className="text-muted-foreground">
-                        In high school, I took elective courses in basic web development, and during my military service, I specialized slightly in networking and communications. I am currently in my second year of bachelor’s studies with a very strong GPA, driven by a deep interest in my chosen field.
+                        In high school, I took elective courses in basic web development, and during my military service, I specialized slightly in networking and communications. I am currently in my second year of bachelor’s studies with a very strong GPA, driven by a deep interest in my chosen field. In recognition of my academic performance, I was named to the School of <a className='underline hover:no-underline' href='https://taltech.ee/en/book-honour' target='_blank'>Information Technologies’ Book of Honour (Dean’s List)</a> in the autumn semester of the previous academic year.
                     </p>
                 </div>
 

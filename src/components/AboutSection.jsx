@@ -17,7 +17,7 @@ export const AboutSection = () => {
                     </p>
 
                     <p className="text-muted-foreground">
-                        In high school, I took elective courses in basic web development, and during my military service, I specialized slightly in networking and communications. As of now, I have successfully completed the second year of my bachelor's degree with a very good GPA, driven by a deep interest in my chosen field. In recognition of my academic performance, I was named to the School of <a className='underline hover:no-underline' href='https://taltech.ee/en/book-honour' target='_blank'>Information Technologies’ Book of Honour (Dean’s List)</a> for the autumn semester of the 2024/2025 academic year.
+                        In high school, I took elective courses in basic web development, and during my military service, I specialized slightly in networking and communications. As of now, I have successfully completed the second year of my bachelor's degree studies with a very good GPA, driven by a deep interest in my chosen field. In recognition of my academic performance, I was named to the School of <a className='underline hover:no-underline' href='https://taltech.ee/en/book-honour' target='_blank'>Information Technologies’ Book of Honour (Dean’s List)</a> for the autumn semester of the 2024/2025 academic year.
                     </p>
                 </div>
 
